@@ -5,6 +5,7 @@ $(document).ready(function(){
 		$error.remove();
 		$error1.remove();
 		$student = $('#student').val();
+		console.log($('#student'))
 		if($student == ""){
 			$error1.appendTo('#error');
 		}else{	
